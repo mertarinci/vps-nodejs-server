@@ -4,13 +4,13 @@ const app = express();
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello World! This is port 8000.');
 });
 
 
 
 
 
-app.listen(9998, () => {
-    console.log('VPS app listening on port 9999!')
+app.listen(8000, () => {
+    console.log('VPS app listening on port 8000!')
 })
